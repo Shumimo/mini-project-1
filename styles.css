@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar CSS */
+
+.navbar {
+    background-color: rgb(11,71,72);
+}
+
+/* Main CSS */
+
+/* Intro Section CSS Start */
+
+#intro {
+    padding: 5rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#work::before {
+    content: "A graphic designer.";
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "A graphic designer.";
+    }
+
+    20% {
+        content: "A motion graphics designer.";
+    }
+
+    40% {
+        content: "An art director.";
+    }
+
+    60% {
+        content: "An audio editor.";
+    }
+
+    80% {
+        content: "A web designer.";
+    }
+}
+
+/* Intro Section CSS End */
+/* Work Portoflio CSS Start */
+
+#work-portfolio {
+    padding: 3rem;
+}
+
+/* Work Portoflio CSS End */
+/* About Me CSS Start */
+
+#about-me{
+    padding: 5rem;
+}
+
+#about-me-pic{
+    height: 250px;
+    object-position: 0% 70%;
+}
+
+#logo {
+    height: 30px;
+}
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+    #intro-page {
+        padding: 2rem;
+    }
+}
