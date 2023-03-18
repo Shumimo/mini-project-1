@@ -29,13 +29,13 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">About</a>
+                                    <a href="#myWorks" class="nav-link">My Works</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">My Works</a>
+                                    <a href="#aboutMe" class="nav-link">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Contact Me</a>
+                                    <a href="#contactMe" class="nav-link">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -49,159 +49,363 @@
     <!-- Content Page Start -->
     <main>
         <!-- Intro Section Start -->
-        <section class="bg-dark text-light"> 
-            <div class="container" id="intro">
+        <section class="bg-dark text-light">
+            <div class="container d-flex justify-content-center align-items-center p-4 p-md-5 p-lg-5 p-xl-5 px-0">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-12">
-                        <div class="container w-75">
-                        <img src="img\pfp\picture-2.JPG" alt="profile-photo" class="img-fluid object-fit-fill rounded-5"/>
-                        </div>
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center align-items-center px-0">
+                        <!-- Image displays on large screens only -->
+                        <img src="img\pfp\picture-2.JPG" alt="profile-photo" class="img-fluid w-75 rounded-5 d-none d-md-none d-lg-block"/>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12">
-                        <div class="container">
-                            <h1>I'm Lorenzo!
-                            </h1>
-                            <h2>
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 d-flex align-items-center px-0">
+                        <div class="container px-5 px-md-0 px-lg-0 px-xl-0">
+                            <h1 class="text-center text-md-center text-lg-start my-0 py-2 pt-4 pt-md-4 pt-lg-0 pt-xl-0">I'm Lorenzo!</h1>
+                            <h2 class="text-center text-md-center text-lg-start fs-4 my-0 py-2">
                                 <span id="work"></span>
                             </h2>
-                            <p>I'm a multidisciplinary designer currently working as an Assistant Creatives Manager in Teleperformance Philippines providing creative direction for ATL and BTL campaigns,
+                            <p class="my-0 py-2">I'm a multidisciplinary designer currently working as an Assistant Creatives Manager in Teleperformance Philippines providing creative direction for ATL and BTL campaigns,
                                 video production, digital marketing, and copywriting for our nationwide campaigns.</p>
-                            <p>I've also worked with international and local brands such as Ford, Toyota, Usana, Suysing, Prulife UK, and AIA Philippines.</p>
-                            <h5>Check out my online portfolio!</h5>
-                            <a href="https://www.behance.net/rcanafranca/" class="btn btn-light" role="button" aria-label="behance">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-behance" viewBox="0 0 16 16">
-                                    <path d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391.286.176.497.426.641.747.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922.281.426.461.957.461 1.563 0 .496-.105.922-.285 1.278a2.317 2.317 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.329 5.329 0 0 1-1.278.176L0 12.803V3h4.654zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a.981.981 0 0 0-.32-.355 1.84 1.84 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305v.005zm6.858-.035c.286.285.711.426 1.278.426.39 0 .746-.106 1.032-.286.285-.215.46-.426.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.135 4.135 0 0 1-1.527-.285 2.827 2.827 0 0 1-1.137-.782 2.851 2.851 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4.018 4.018 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396zm2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176-.215.105-.356.25-.496.39a.957.957 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978v-.957z"/>
-                                  </svg> Behance
-                            </a>
-                            <a href="https://vimeo.com/rcanafranca" class="btn btn-primary" role="button" aria-label="vimeo">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-vimeo" viewBox="0 0 16 16">
-                                    <path d="M15.992 4.204c-.071 1.556-1.158 3.687-3.262 6.393-2.175 2.829-4.016 4.243-5.522 4.243-.933 0-1.722-.861-2.367-2.583L3.55 7.523C3.07 5.8 2.556 4.94 2.007 4.94c-.118 0-.537.253-1.254.754L0 4.724a209.56 209.56 0 0 0 2.334-2.081c1.054-.91 1.845-1.388 2.373-1.437 1.243-.123 2.01.728 2.298 2.553.31 1.968.526 3.19.646 3.666.36 1.631.756 2.446 1.186 2.445.334 0 .836-.53 1.508-1.587.671-1.058 1.03-1.863 1.077-2.415.096-.913-.263-1.37-1.077-1.37a3.022 3.022 0 0 0-1.185.261c.789-2.573 2.291-3.825 4.508-3.756 1.644.05 2.419 1.117 2.324 3.2z"/>
-                                  </svg> Vimeo
-                            </a>
+                            <p class="my-0 py-2">I've also worked with international and local brands such as Ford, Toyota, Usana, Suysing, Prulife UK, and AIA Philippines.</p>
+                            <h5 class="d-flex justify-content-center justify-content-md-center justify-content-lg-start my-0 py-4">Check out my online portfolio!</h5>
+                            <div class="container d-flex justify-content-center justify-content-md-center justify-content-lg-start px-0">
+                                <a href="https://www.behance.net/rcanafranca/" class="btn btn-light mx-2 mx-md-2 mx-lg-0 me-lg-3" role="button" aria-label="behance">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-behance" viewBox="0 0 16 16">
+                                        <path d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391.286.176.497.426.641.747.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922.281.426.461.957.461 1.563 0 .496-.105.922-.285 1.278a2.317 2.317 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.329 5.329 0 0 1-1.278.176L0 12.803V3h4.654zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a.981.981 0 0 0-.32-.355 1.84 1.84 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305v.005zm6.858-.035c.286.285.711.426 1.278.426.39 0 .746-.106 1.032-.286.285-.215.46-.426.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.135 4.135 0 0 1-1.527-.285 2.827 2.827 0 0 1-1.137-.782 2.851 2.851 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4.018 4.018 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396zm2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176-.215.105-.356.25-.496.39a.957.957 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978v-.957z"/>
+                                        </svg> Behance
+                                </a>
+                                <a href="https://vimeo.com/rcanafranca" class="btn btn-primary mx-2 mx-md-2 mx-lg-0 me-lg-3" role="button" aria-label="vimeo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-vimeo" viewBox="0 0 16 16">
+                                        <path d="M15.992 4.204c-.071 1.556-1.158 3.687-3.262 6.393-2.175 2.829-4.016 4.243-5.522 4.243-.933 0-1.722-.861-2.367-2.583L3.55 7.523C3.07 5.8 2.556 4.94 2.007 4.94c-.118 0-.537.253-1.254.754L0 4.724a209.56 209.56 0 0 0 2.334-2.081c1.054-.91 1.845-1.388 2.373-1.437 1.243-.123 2.01.728 2.298 2.553.31 1.968.526 3.19.646 3.666.36 1.631.756 2.446 1.186 2.445.334 0 .836-.53 1.508-1.587.671-1.058 1.03-1.863 1.077-2.415.096-.913-.263-1.37-1.077-1.37a3.022 3.022 0 0 0-1.185.261c.789-2.573 2.291-3.825 4.508-3.756 1.644.05 2.419 1.117 2.324 3.2z"/>
+                                        </svg> Vimeo
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Intro Section End -->
-        <!-- About Me Section Start -->
+        <!-- Portfolio Section Start -->
         <section class="bg-dark text-light">
-            <div class="col-xl-12 col-lg-8 col-md-12">
-                <!-- Teleperformance Works Start -->
-                <div class="container" id="work-portfolio">
-                    <div class="container">
-                        <h1 class="text-center">My Works</h1>
-                        <h3 class="text-center">Teleperformance Philippines</h3>
+            <div class="container p-0 p-md-0 p-lg-5 p-xl-5">
+                <h1 class="text-center mb-0 py-3" id="myWorks">My Works</h1>
+                <div class="carousel slide" id="portfolioCarousel" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
+                        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" class="active" aria-label="slide 2"></button>
+                        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" class="active" aria-label="slide 3"></button>
+                        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3" class="active" aria-label="slide 4"></button>
                     </div>
-                    <div class="container d-flex flex-wrap">
-                        <div class="row row-gap-4">
-                            <div class="col-xl-6 col-lg-6">
-                                <img src="img\works\work-1.jpeg" alt="work-portfolio-1" class="img-fluid"/>
-                                <div>
-                                    <h1 class="placeholder col-6 my-2"></h1>
-                                    <p class="placeholder col-10 my-0"></p>
-                                    <p class="placeholder col-8 my-0"></p>
-                                </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img\works\work-1.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Placeholder Headline</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <img src="img\works\work-2.jpeg" alt="work-portfolio-2" class="img-fluid"/>
-                                <div>
-                                    <h1 class="placeholder col-6 my-2"></h1>
-                                    <p class="placeholder col-10 my-0"></p>
-                                    <p class="placeholder col-8 my-0"></p>
-                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\works\work-2.jpeg" class="img-fluid d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Placeholder Headline</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <img src="img\works\work-3.jpg" alt="work-portfolio-3" class="img-fluid"/>
-                                <div>
-                                    <h1 class="placeholder col-6 my-2"></h1>
-                                    <p class="placeholder col-10 my-0"></p>
-                                    <p class="placeholder col-8 my-0"></p>
-                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\works\work-3.jpg" class="img-fluid d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Placeholder Headline</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <img src="img\works\work-4.jpg" alt="work-portfolio-4" class="img-fluid"/>
-                                <div>
-                                    <h1 class="placeholder col-6 my-2"></h1>
-                                    <p class="placeholder col-10 my-0"></p>
-                                    <p class="placeholder col-8 my-0"></p>
-                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\works\work-4.jpg" class="img-fluid d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4>Placeholder Headline</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <!-- Teleperformance Works End -->
             </div>
+        <!-- Portfolio End -->
         </section>
         <!-- About Me Section Start -->
         <section class="bg-dark text-light">
-            <div class="col-xl-12 col-lg-9 col-md-12">
-                <div class="container" id="about-me">
-                    <div class="row">
-                        <h1>About Me</h1>
-                        <div class="container d-flex">
-                            <div class="col-6">
-                                <p>I'm a designer who works using multiple design disciplines. I usually do branding, advertising, motion, experience.
-                                It might appear that I'm a jack-of-all-trades kind of guy but seriously it's all for the love of satisfying my curiousity.</p>
-                                <p>I like exploring and solving challenges particularly the tricky ones. I love it when my mind gets all worked up and
-                                witnessing my projects come to life really hits the spot for me!</p>
-                            </div>
-                            <div class="col-6">
-                                <div class="container">
-                                    <img src="img\pfp\picture-3.JPG" alt="profile-photo" class="img-fluid object-fit-cover w-100" id="about-me-pic"/>
-                                </div>
+            <div class="container d-flex justify-content-center align-items-center p-4 p-md-5 p-lg-5 p-xl-5 px-0" id="about-me">
+                <div class="row">
+                    <h1 class="text-center text-md-center text-lg-start mb-0 py-3 px-0" id="aboutMe">About Me</h1>
+                    <!-- Shiba will not appear on large desktops -->
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 d-block d-md-block d-lg-none px-0">
+                        <div class="container d-flex justify-content-center align-items-center">
+                            <img src="img\pfp\eureka-doggo-square.svg" class="w-50" alt="shiba"/>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-7 col-xl-7 px-0">
+                        <div class="container px-5 px-md-0 px-lg-0 px-xl-0 px-0">
+                            <p class="my-0 py-2">I'm a designer who works using multiple design disciplines. I usually do branding, advertising, motion design, experience.
+                            It might appear that I'm a jack-of-all-trades kind of guy but seriously it's all for the love of satisfying my curiousity.</p>
+                            <p class="my-0 py-2">I like exploring and solving challenges particularly the tricky ones. I love it when my mind gets all worked up and
+                            witnessing my projects come to life really hits the spot for me!</p>
+                            <div class="container d-flex d-none d-md-none d-lg-block px-0 pt-3">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#journey" aria-expanded="false" aria-controls="journey">
+                                Take a look at my journey so far! <i class="bi bi-arrow-right-circle px-1"></i>
+                                </button>
                             </div>
                         </div>
-                        <div class="container my-4">
+                    </div>
+                    <!-- Shiba will not appear below About Me on mobile -->
+                    <div class="col-12 col-md-12 col-lg-5 col-xl-5 d-none d-md-none d-lg-block px-0">
+                        <div class="container d-flex justify-content-center align-items-center px-0">
+                        <img src="img\pfp\eureka-doggo-square.svg" class="w-50" alt="..."/>
+                        </div>
+                    </div>
+                    <!-- Button will not appear on desktops -->
+                    <div class="container d-flex justify-content-center d-block d-lg-none px-0 py-4">
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#journey" aria-expanded="false" aria-controls="journey">
-                        Take a look at my journey so far! <i class="bi bi-arrow-right-circle"></i>
+                        Take a look at my journey so far! <i class="bi bi-arrow-right-circle px-1"></i>
                         </button>
-                        </div>
-                        <div class="collapse" id="journey">
-                            <div class="row">
-                                <h2>Work Experience</h2>
-                                <div class="col-6">
-                                    <div class="card my-4">
-                                        <div class="card-body text-bg-dark">
-                                            <div class="container mt-4 d-flex">
-                                                <img src="img\logos\tp-logo.svg" alt="teleperformance" id="logo"/>
-                                                <h5 class="card-title align-items-center">Teleperformance Philippines</h5>
-                                            </div>
-                                            <div class="card-text mt-4">
-                                                <ul>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus libero provident enim? Debitis accusamus, ratione quibusdam eaque odit aut, officiis nesciunt illo omnis ullam deserunt nisi ipsum? Recusandae, odio dolor?</li>
-                                                </ul>
-                                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Collapsed Section Start -->
+            <div class="collapse" id="journey">
+                <div class="container p-4 p-md-5 p-lg-5 p-xl-5">
+                    <div class="row gy-4">
+                        <h2 class="my-3">Work Experience</h2>
+                        <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+                                <div class="card" id="exp-card">
+                                <div class="card-body text-bg-dark border-2 rounded-2">
+                                    <div class="row pt-3">
+                                        <div class="col-12 col-md-2 col-lg-2 d-flex justify-content-center align-items-center px-0 pb-3 pb-md-0 pb-lg-0">
+                                            <img src="img\logos\tp-logo.svg" class="companyLogo" alt="teleperformance"/>
+                                        </div>
+                                        <div class="col-12 col-md-7 col-lg-7 text-center text-md-start text-lg-start px-0 py-2 py-md-0 py-lg-0">
+                                            <h5 class="mb-0">Assistant Creatives Manager</h5>
+                                            <p class="mb-0">Teleperformance Philippines</p>
+                                        </div>
+                                        <div class="col-12 col-md-3 col-lg-3 d-flex justify-content-center align-items-center text-center text-md-start text-lg-start px-0 py-2 py-md-0 py-lg-0">
+                                            <p class="mb-0">Present</p>
                                         </div>
                                     </div>
+                                    <div class="card-text mt-2 mt-md-4 mt-lg-4 px-2 px-md-4 px-lg-4">
+                                        <p class="m-0 mx-auto py-2">Responsible for leading the creative direction of all our nationwide recruitment initiatives and enforcing the brand guidelines.</p>
+                                        <p class="m-0 mx-auto py-2">Creatives team played a key role on 60% of the total hire contribution rate for the year of 2022 by collaborating with different teams in developing campaigns.</p>
+                                        <p class="m-0 mx-auto py-2">Contributed largely to our social media platforms which managed to reach 27m in total and garnered 65m impressions.</p>
+                                    </div>
                                 </div>
-                                <div class="col-6">
-                                    <div class="card my-4">
-                                        <div class="card-body text-bg-dark">
-                                            <div class="container mt-4 d-flex">
-                                                <img src="img\logos\tp-logo.svg" alt="teleperformance" id="logo"/>
-                                                <h5 class="card-title align-items-center">CreAsia Inc.</h5>
-                                            </div>
-                                            <div class="card-text mt-4">
-                                                <ul>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus libero provident enim? Debitis accusamus, ratione quibusdam eaque odit aut, officiis nesciunt illo omnis ullam deserunt nisi ipsum? Recusandae, odio dolor?</li>
-                                                </ul>
-                                            </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="card" id="exp-card">
+                                <div class="card-body text-bg-dark border-2 rounded-2">
+                                    <div class="row pt-3">
+                                        <div class="col-12 col-md-2 col-lg-2 d-flex justify-content-center align-items-center px-0 pb-3 pb-md-0 pb-lg-0">
+                                            <img src="img\logos\creasia-logo.png" class="companyLogo" alt="teleperformance" id="logo"/>
                                         </div>
+                                        <div class="col-12 col-md-7 col-lg-7 text-center text-md-start text-lg-start px-0 py-2 py-md-0 py-lg-0">
+                                            <h5 class="mb-0">Graphic Artist & Video Editor</h5>
+                                            <p class="mb-0">CreAsia Inc.</p>
+                                        </div>
+                                        <div class="col-12 col-md-3 col-lg-3 d-flex justify-content-center align-items-center text-center text-md-start text-lg-start px-0 py-2 py-md-0 py-lg-0">
+                                            <p class="mb-0">2015-2017</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-text mt-2 mt-md-4 mt-lg-4 px-2 px-md-4 px-lg-4">
+                                        <p class="m-0 mx-auto py-2">Develop key visuals and other graphics such as video materials, large format images and textures for backdrops, and PowerPoint slides for corporate events.</p>
+                                        <p class="m-0 mx-auto py-2">Create videos and work closely with accounts, graphic designers, and audio editors.</p>
+                                        <p class="m-0 mx-auto py-2">Design stage and foyer designs and provide to-scale mock-ups and schematics of the stage design.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- Skills Row 1 Start -->
+                <div class="container p-5 p-md-5 p-lg-5" id="skill-cards">
+                    <h2 class="text-center mt-0 mb-3">Skills</h2>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg" class="card-img-top skills" alt="Adobe After Effects"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Adobe After Effects</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg" class="card-img-top skills" alt="Adobe Premiere Pro"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Adobe Premiere Pro</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Adobe_Media_Encoder_Icon.svg" class="card-img-top skills" alt="Adobe Media Encoder"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Adobe Media Encoder</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Adobe_Audition_CC_icon_%282020%29.svg" class="card-img-top skills" alt="Adobe Audition"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Adobe Audition</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills Row 1 End -->
+                    <!-- Skills Row 2 Start -->
+                    <div class="row my-3 d-flex justify-content-center">
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" class="card-img-top skills" alt="Adobe Photoshop"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Adobe Photoshop</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" class="card-img-top skills" alt="Adobe Illustrator"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Adobe Illustrator</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg" class="card-img-top skills" alt="Adobe InDesign"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Adobe InDesign</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Adobe_Acrobat_DC_logo_2020.svg" class="card-img-top skills" alt="Adobe Acrobat"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Adobe Acrobat</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Skills Row 2 End -->
+                    <!-- Skills Row 3 Start -->
+                    <div class="row my-3 d-flex flex-wrap justify-content-center">
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg" class="card-img-top skills" alt="Adobe XD"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Adobe XD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg" class="card-img-top skills" alt="MS Office 365"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Micsoft Office 365</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="img\logos\sketchup-logo.svg" class="card-img-top skills" alt="SketchUp"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">SketchUp</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <div class="card border-0 rounded-0">
+                                <div class="card-body text-bg-dark d-flex flex-column justify-content-center align-items-center m-0">
+                                    <img src="img\logos\cinema-4d-logo.svg" class="card-img-top skills" alt="Cinema 4D"/>
+                                    <div class="card-body text-center pt-3 pb-0">
+                                        <p class="m-0 d-none d-md-block d-lg-block">Cinema 4D</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                
         </section>
         <!-- About Me Section End -->
+        <!-- Contact Form Section Start -->
+        <section class="bg-warning">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 p-4 p-md-3 p-lg-5">
+                        <h1 id="contactMe">Interested?</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 p-4 p-md-3 p-lg-5">
+                        <form class="d-flex flex-column justify-content-center align-items-center">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control m-1" placeholder="Your Name" aria-label="Your Name">
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <input type="text" class="form-control m-1" placeholder="Email" aria-label="Email">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12 mt-2">
+                                <input type="text" class="form-control m-1" placeholder="Subject" aria-label="Subject">
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12 mt-2">
+                                <textarea class="form-control m-1" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary mt-3 w-100">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Content Page End -->
     <!-- Footer Start -->
-    <footer>
-         mlem
+    <footer class="bg-dark text-bg-dark">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-12 text-center">
+                    <h5 class="mb-0">KodeGo Mini Project 1</h5>
+                    <p>Lorenzo Canafranca</p>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- Footer End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
